@@ -123,10 +123,10 @@ jobs:
     needs:
       - information
       - lint-addon
-      - lint-hadolint
+#       - lint-hadolint
       - lint-json
       - lint-markdown
-      - lint-prettier
+#       - lint-prettier
       - lint-shellcheck
       - lint-yamllint
     runs-on: ubuntu-latest
