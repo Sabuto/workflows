@@ -94,7 +94,7 @@ jobs:
         env:
           SHELLCHECK_OPTS: -s bash
         with:
-          ignore_paths: .devcontainer
+          ignore: .devcontainer
 
   lint-yamllint:
     name: YAMLLint
